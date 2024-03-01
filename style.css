@@ -1,0 +1,82 @@
+ul {
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(215, 240, 157);
+  }
+  
+  li a {
+    font-size: 16px;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(14, 69, 90);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(156, 145, 96);
+    transition-duration: 0.5s;
+    border-radius: 10px;
+  }
+
+  #logo{
+  width: 5%;
+  margin-right: 500px;
+  height: 5%;
+}
+  .home{
+    color: rgb(33, 78, 96);
+    font-size: 30px;
+    display: flex;
+    background-color: rgb(227, 240, 236);
+  }
+  .bedford{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 50px;
+  }
+  .manali img{
+    margin-top: 150px;
+  }
+  .manali{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-bottom: 300px;
+  }
+
+  footer{
+    color: rgb(231, 218, 218);
+    display: flex;
+    text-align: center;
+    background-color: rgb(14, 15, 15);
+    border-radius: 5px;
+    margin-top:5px;
+  }
+
+  .events{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  .kristong{
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .kristong img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
+
+  .cover img{
+    height: 320px;
+    width: 100%;
+  }
